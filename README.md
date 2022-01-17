@@ -9,6 +9,9 @@
 - DOM ( find, change, update, create )
 - Events
 
+# Bra länkar
+https://github.com/ryanmcdermott/clean-code-javascript
+
 
 # Övningar
 ## Syntax n stuff
