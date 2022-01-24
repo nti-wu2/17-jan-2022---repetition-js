@@ -4,10 +4,10 @@
 - datatyper
 - funktioner ( argument, return )
 - datastrukturer ( arrayer, objekt )
-- loopar ( for )
-- conditionals ( if )
-- DOM ( find, change, update, create )
-- Events
+- loopar ( for, forEach )
+- conditionals ( if, else )
+- DOM ( find, update, create, delete )
+- Events ( click )
 
 # Bra länkar
 https://github.com/ryanmcdermott/clean-code-javascript

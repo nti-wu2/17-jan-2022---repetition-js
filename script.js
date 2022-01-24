@@ -58,11 +58,36 @@ let dicegame = {
             this.totalValue += total;
 
         }
-
         console.log(this.stats);
-
     }
 };
 
+// for loop 
+for(let i = 0; i<num.length; i++ ){
 
-dicegame.init();
+    if(num[i] >= 20 && num[i] <= 100){
+      //  document.write(`<p>${num[i]}</p>`);
+    } else {
+      //  document.write(`<p>${num[i]} är INTE mellan 20 - 100.</p>`);
+    }
+}
+
+document.querySelector('h1').innerText = 'Hello Johan!';
+document.querySelector('h2').style.backgroundColor = 'red';
+document.querySelector('h2').remove();
+
+let list = document.querySelectorAll('li');
+
+list.forEach(el => {
+    
+    el.addEventListener('click', () => {
+        console.log(`Du klickade på ${el.innerText}`);
+        el.classList.toggle('clicked');
+    })
+
+})
+
+let template = `<p>Hejsan hoppsan! Jag är en template string.<p>`;
+document.querySelector('body').insertAdjacentHTML('beforeend', template);
+
+document.querySelector('body').innerHTML = '';
